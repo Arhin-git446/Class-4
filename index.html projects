@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>my project (Adding Multimedia in html)</title>
+    </head>
+    <body>
+        <h2>Adding an image</h2>
+        <img src =  "dog.jpg" width = "500" height = "500" alt ="Indian breed Kombai"><br>
+        <h2>Adding a video</h2>
+        <video width="300" height="250" controls>
+            <source src = "test_video.mp4" type = "video/mp4"><br>
+        </video>
+        <h2>Adding an audio</h2>
+        <audio controls>
+            <source src = "test_audio.mp3" type = "audio/mpeg">
+        </audio>
+        <h2>Adding iframe</h2>
+        <iframe width="935" height="526" src="https://www.youtube.com/embed/XQDkBtKdPbc" title="Most Illegal, Powerful and Largest Dog
+         Breeds In The World !" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+         picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body>
+</html>
